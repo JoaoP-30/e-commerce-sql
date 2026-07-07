@@ -36,25 +36,6 @@ Produtos: Nome, preço, descrição, marca, categoria, peso e estoque.
 Pedidos: Itens vinculados, pagamento automático e entrega com rastreamento.
 
 ## 🚀 Como Executar
-Para rodar o projeto em MySQL:
-
-### 1. Crie a estrutura
-mysql -u seu_usuario -p < 1-Create-DB.sql
-
-### 2. Popule os dados
-mysql -u seu_usuario -p < 2-Populate-DB.sql
-
-### 3. Instale os Triggers
-mysql -u seu_usuario -p < 3-Triggers.sql
-
-### 4. Carregue as Procedures
-mysql -u seu_usuario -p < 4-Procedures.sql
-
-### 5. Crie as Views
-mysql -u seu_usuario -p < 5-Views.sql
-
-## 💻 Forma Alternativa: MySQL Workbench
-Se preferir uma interface gráfica em vez do terminal, você pode executar todos os scripts diretamente pelo MySQL Workbench:
 
 Abra o MySQL Workbench e conecte-se ao seu servidor.
 
